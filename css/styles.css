@@ -177,6 +177,7 @@ img {
   margin-bottom: 8px;
 }
 .feature-text {
+  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -204,13 +205,17 @@ img {
   gap: 24px;
 }
 .team-list-item {
-  width: calc((100% - 72px) / 4);
-}
-.team-list-item {
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
+}
+.cards-title {
+  padding: 32px 0;
+  margin-bottom: 8px;
 }
 .team-cards-title {
+  text-align: center;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -219,6 +224,8 @@ img {
   color: #2e2f42;
 }
 .profession-text {
+  text-align: center;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -263,12 +270,17 @@ img {
 /* #region footer */
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-logo .footer-studio {
+  display: inline-block;
+  padding-bottom: 16px;
+
   color: #f4f4fd;
 }
 .footer-text {
+  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
