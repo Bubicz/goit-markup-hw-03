@@ -164,7 +164,6 @@ img {
 .ethics-list {
   display: flex;
   gap: 24px;
-  max-width: 1128px;
 }
 .feature-item {
   width: calc((100% - 72px) / 4);
