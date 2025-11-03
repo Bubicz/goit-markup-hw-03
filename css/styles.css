@@ -164,6 +164,7 @@ img {
 .ethics-list {
   display: flex;
   gap: 24px;
+  max-width: 1128px;
 }
 .feature-item {
   width: calc((100% - 72px) / 4);
@@ -178,6 +179,7 @@ img {
 }
 .feature-text {
   max-width: 264px;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -190,7 +192,18 @@ img {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
+.team-cards {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.team-cards-title {
+  margin-bottom: 8px;
+}
+
 .team-title {
+  margin-bottom: 8px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
