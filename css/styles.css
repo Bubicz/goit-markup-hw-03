@@ -266,6 +266,7 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  max-width: 360px;
 }
 .project-card-title {
   font-weight: 500;
@@ -288,7 +289,7 @@ img {
   padding: 100px 0;
 }
 
-.logo .footer-studio {
+.footer-logo {
   display: inline-block;
   padding-bottom: 16px;
 
